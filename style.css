@@ -1,0 +1,631 @@
+@import url('./parNav.css');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* parent */
+.title-nav-wrapper{
+    /* border: 2px solid; */
+    background-color: #fff;
+    height: 153.6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+}
+
+/* child */
+.title-nav-wrapper h1{
+    /* border: 2px solid red; */
+    height: 103.6px;
+    width: 407.75px;
+}
+
+.title-nav-wrapper img{
+    height: 100px;
+    width: 100px;
+}
+
+#desktopNav{
+    /* border: 2px solid green; */
+    height: 103.6px;
+    width: 951.45px;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    
+    
+}
+
+#desktopNav ul{
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
+
+
+#desktopNav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: proxima-nova;
+    font-size: 11px;
+    color:  #363636;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* #Home img 0 */
+#home{
+    /* border: 2px solid red; */
+    width: inherit;
+    height: 737.6px;
+    background-image: url('./assets/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.title-desc-wrapper{
+    /* border: 2px solid blue; */
+    height: 584px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+}
+
+.title-desc-wrapper-inner{
+    /* border: 2px solid green; */
+    height: 177.95px;
+    width: 883.475px;
+}
+
+.title-wrapper{
+    /* border: 2px solid yellow; */
+    height: 69.2px;
+    width:  780px;  
+    background-color: #ffffff99;
+
+    /* display flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-wrapper h1{
+    /* border: 2px solid ; */
+    font-size: 39.2px;
+    letter-spacing: 7.0359px;
+    font-family: 'futura-pt';
+    word-spacing: 0px;
+    text-transform: uppercase; 
+    color: black; 
+    height: 39.1px;
+    
+}
+
+.desc-wrapper{
+    height: 83.75px;
+    width: inherit;
+    background-color: #ffffff99;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.desc-wrapper p{
+    font-family: 'proxima-nova';
+    font-size: 24.8px;
+    line-height: 26.88px;
+    word-spacing: 0px;
+    width: 836px;
+}
+
+.scrolldown i{
+    color: white;
+    font-size: 80px;
+}
+
+.scrolldown{
+    height: 30px;
+    width: 15px;
+    /* position: relative; */
+    position: absolute;
+    z-index: 9999;
+    top: 89% ;
+    left: 50%;
+
+}
+
+/* home 2 */
+
+.home2{
+    /* border: 2px solid blueviolet; */
+    height: 1126.6px;
+    width: 1519.2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    /* img */
+    background-image: url('./assets/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home2-wrapper{
+    /* border: 2px solid; */
+    height: 386.8px;
+    width: inherit;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home2-inner-wrapper{
+    /* border: 2px solid; */
+    height: 186.8px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home2-inner-wrapper h1{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 33.6px;
+}
+
+.home2-inner-wrapper span{
+    
+    font-size: 19px;
+    line-height: 22.4px;
+}
+
+.home2-over-img-content{
+    /* border: 2px solid red; */
+    height: 737.4px;
+    width: 1519.2px;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.home2-over-img-content-inner{
+    /* border: 5px solid green; */
+    height: 108.4px;
+    width: 883.475px;
+    background-color: #ffffff99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home2-over-img-content-inner h1{
+    font-size: 39.2px;
+    font-weight: 500;
+    letter-spacing: 7.0359px;
+    font-family: 'futura-pt';
+    word-spacing: 0px;
+    text-transform: uppercase; 
+    color: black; 
+    /* height: 39.1px; */
+
+}
+
+/* home3 */
+.home3{
+    /* border: 2px solid red; */
+    height: 1177px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* img */
+    background-image: url('./assets/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.home3-wrapper{
+    /* border: 2px solid green; */
+    background-color: #fff;
+    width: 100%;
+    height: 439.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home3-inner-wrapper{
+    /* border: 2px solid blue; */
+    height: 239.125px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home3-inner-wrapper h2{
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+.home3-inner-wrapper span{
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        font-family: proxima-nova;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 1.6em;
+}
+
+.home3-over-img-content{
+    /* border: 4px solid cyan; */
+    width: 100%;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home3-over-img-inner{
+    /* border: 4px solid green; */
+    height: 590px;
+    width: 90%;
+}
+
+.home3-content{
+    height: 69.2px;
+    width: 251.14px;
+    background-color: #ffffff99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home3-content h1{
+   text-transform: uppercase;
+   columns: black;
+   font-size: 39.2px;
+   letter-spacing: 3px;
+   font-weight: 400;
+}
+
+/* home4 */
+.home4{
+    /* border: 2px solid red; */
+    height: 1177px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* img */
+    background-image: url('./assets/1040.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.home4-wrapper{
+    /* border: 2px solid green; */
+    background-color: #fff;
+    width: 100%;
+    height: 439.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home4-inner-wrapper{
+    /* border: 2px solid blue; */
+    height: 239.125px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home4-inner-wrapper h2{
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+.home4-inner-wrapper span{
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        font-family: proxima-nova;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 1.6em;
+}
+
+.home4-over-img-content{
+    /* border: 4px solid cyan; */
+    width: 100%;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home4-over-img-inner{
+    /* border: 4px solid green; */
+    height: 590px;
+    width: 90%;
+}
+
+.home4-content{
+    height: 69.2px;
+    width: 352.14px;
+    background-color: #ffffff99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home4-content h1{
+   text-transform: uppercase;
+   columns: black;
+   font-size: 39.2px;
+   letter-spacing: 3px;
+   font-weight: 400;
+}
+
+/* home5 */
+.home5{
+    /* border: 2px solid red; */
+    height: 1177px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* img */
+    background-image: url('./assets/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.home5-wrapper{
+    /* border: 2px solid green; */
+    background-color: #fff;
+    width: 100%;
+    height: 495.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home5-inner-wrapper{
+    /* border: 2px solid blue; */
+    height: 239.125px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home5-inner-wrapper h2>span{
+    font-style: oblique;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.home5-inner-wrapper h2{
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.4em;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+
+
+.home5-inner-wrapper span{
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        font-family: proxima-nova;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 1.6em;
+}
+
+.home5-over-img-content{
+    /* border: 4px solid cyan; */
+    width: 100%;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home5-over-img-inner{
+    /* border: 4px solid green; */
+    height: 590px;
+    width: 90%;
+}
+
+.home5-content{
+    height: 69.2px;
+    width: 251.14px;
+    background-color: #ffffff99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home5-content h1{
+   text-transform: uppercase;
+   columns: black;
+   font-size: 39.2px;
+   letter-spacing: 3px;
+   font-weight: 400;
+}
+
+
+/* Gallery */
+
+.Gallery-Wrapper{
+    /* border: 2px solid red; */
+    background-color: white;
+    height: 901.69px;
+    width: 1519.2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.Gallery-Inner-Wrapper{
+    /* border: 2px solid green; */
+    height: 836.69px;
+    width: 1014.05px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.gallery-image-size{
+    /* border: 2px solid darkblue; */
+    height: 198.25px;
+    width: 297.33px;
+}
+
+.img-wrap{
+    /* border: 2px solid darkorange; */
+    height: 265.41px;
+    width: 331.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* footer */
+
+.footerMain{
+    /* border: 2px solid; */
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper{
+
+    /* border: 2px solid rebeccapurple; */
+    height: 303.4px;
+    width: 1203.05px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-inner-wrapper{
+    /* border: 2px solid green; */
+    height: 143.4px;
+    width: 994px;
+    display: flex;
+}
+
+.footer-inner-wrapper p{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.usg nav{
+    /* border: 2px solid white; */
+    height: 34.4px;
+    width: 90%;
+
+}
+
+.usg{
+    /* border: 2px solid red; */
+    height: 51.4px;
+    width: 248.5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.usg nav>a>i{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+

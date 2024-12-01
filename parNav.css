@@ -1,0 +1,57 @@
+/* Parallel Navigation bar */
+.ParallelNav{
+    /* border: 2px solid red; */
+    height: 151.2px;
+    width: 25.2px; 
+    position: fixed;
+    z-index: 9999;
+    top: 290.8px;
+    bottom: 217.6px;
+    right: 15px;
+    left: 1465px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center space-around;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dot{
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    height: 9px;
+    width: 9px;
+    background-color: red;
+}
+
+.TopButton{
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topButtonspace{
+    /* border: 2px solid; */
+    position: relative;
+    height: 25px;
+    background-color: white;
+}
+#bottom{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 50%;
+    z-index: 99;
+}
+/* ======================== parallel navigation end =============================== */
